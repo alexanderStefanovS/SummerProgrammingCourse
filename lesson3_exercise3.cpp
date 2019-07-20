@@ -12,7 +12,7 @@ int main()
 	
 	for (int i = 2; i < number; ++i) 
 	{
-		if (number % i == 0) 
+		if (number % i == 0 && number != 2) 
 		{
 			flag = false;
 			break;
